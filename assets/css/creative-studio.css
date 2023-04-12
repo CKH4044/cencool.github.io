@@ -11802,11 +11802,17 @@ pre .code {
   
 }
 
-@media (hover: none) {
+@supports (-webkit-touch-callout: inherit) {
   .header {
     background-attachment: scroll;
   }
 }
+
+/* @media (hover: none) {
+  .header {
+    background-attachment: scroll;
+  }
+} */
 
 .header .overlay {
   position: absolute;
