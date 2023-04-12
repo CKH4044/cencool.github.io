@@ -11799,9 +11799,10 @@ pre .code {
   background-size: cover;
   background-color: transparent;
   background-attachment: fixed;
+  
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
   /* Safari-specific styles */
   .header {
     background-attachment: scroll;
