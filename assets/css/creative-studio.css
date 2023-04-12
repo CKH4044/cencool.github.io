@@ -11802,8 +11802,7 @@ pre .code {
   
 }
 
-@media only screen and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) and (pointer: coarse), only screen and (max-device-width: 767px) and (min-resolution: 192dpi) and (pointer: coarse) {
-  /* Safari-specific styles */
+@media (hover: none) {
   .header {
     background-attachment: scroll;
   }
