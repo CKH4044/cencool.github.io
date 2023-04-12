@@ -11803,7 +11803,7 @@ pre .code {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   /* Safari-specific styles */
-  body {
+  .header {
     background-attachment: scroll;
   }
 }
