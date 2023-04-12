@@ -11798,8 +11798,14 @@ pre .code {
   background: url(../imgs/background-image.png) no-repeat center center fixed;
   background-size: cover;
   background-color: transparent;
-  -webkit-backface-visibility: hidden;
-  background-attachment: scroll;
+  background-attachment: fixed;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* Safari-specific styles */
+  body {
+    background-attachment: scroll;
+  }
 }
 
 .header .overlay {
