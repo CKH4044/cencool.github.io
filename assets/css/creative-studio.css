@@ -11797,6 +11797,7 @@ pre .code {
   background: url(../imgs/background-image.png) no-repeat center center fixed;
   background-size: cover;
   background-color: transparent;
+  -webkit-backface-visibility: hidden;
 }
 
 .header .overlay {
