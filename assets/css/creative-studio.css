@@ -11816,6 +11816,7 @@ pre .code {
 
 .header .overlay {
   position: absolute;
+  min-height: 600px;
   left: 0;
   top: 0;
   width: 100%;
