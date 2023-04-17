@@ -19,6 +19,8 @@
 
     <link rel="stylesheet" href="assets/css/added.css">
 
+    <link rel="stylesheet" href="assets/css/dropdown.css">
+
 
 </head>
 
@@ -41,8 +43,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#home">首頁</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#course">課程簡介</a>
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#course" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            課程簡介
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: black; border-top: 1px solid #FFF; border-bottom: 1px solid #FFF;">
+                        <a class="dropdown-item" href="../course/AI-Writing.html" style="color:#FFF; border-bottom: 1px solid #ccc; ">AI 智能寫作的探索和應用</a>
+                        <a class="dropdown-item" href="../course/AI-Drawing.html" style="color:#FFF; border-bottom: 1px solid #ccc; ">AI 輔助生成藝術作品集</a>
+                        <a class="dropdown-item" href="../course/AI-VR.html" style="color:#FFF;">虛擬實境 (VR)設計實戰應用 </a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about-us">關於我們</a>
@@ -153,6 +163,12 @@
                         <p>每班授課人數:  15 至 35 人</p>
                         <br>
                         <h6>名額有限，先到先得</h6>
+                        <br>
+                        <div class="button-holder text-left" style="padding-left:0;">
+                            <a href="course/AI-Writing.html" class="button-dot">
+                                <span id="course" style="color:#FF214F">更多</span>
+                            </a>
+                        </div>
                     </div>
                     <img src="assets/imgs/course-swiper-1.png" alt="" class="slider-image">
                     <img src="assets/imgs/logo.svg" alt="" class="slider-logo" id="about-us">
@@ -168,6 +184,12 @@
                         <p>每班授課人數:  15 至 35 人</p>
                         <br>
                         <h6>名額有限，先到先得</h6>
+                        <br>
+                        <div class="button-holder text-left" style="padding-left:0;">
+                            <a href="course/AI-Drawing.html" class="button-dot">
+                                <span id="course" style="color:#FF214F">更多</span>
+                            </a>
+                        </div>
                     </div>
                     <img src="assets/imgs/course-swiper-2.png" alt="" class="slider-image">
                     <img src="assets/imgs/logo.svg" alt="" class="slider-logo">
@@ -183,6 +205,12 @@
                         <p>每班授課人數:  15 至 35 人</p>
                         <br>
                         <h6>名額有限，先到先得</h6>
+                        <br>
+                        <div class="button-holder text-left" style="padding-left:0;">
+                            <a href="course/AI-VR.html" class="button-dot">
+                                <span id="course" style="color:#FF214F">更多</span>
+                            </a>
+                        </div>
                     </div>
                     <img src="assets/imgs/course-swiper-3.png" alt="" class="slider-image">
                     <img src="assets/imgs/logo.svg" alt="" class="slider-logo">
@@ -247,7 +275,14 @@
                     <div class="item">
                         <div class="mb-0">
                             <h5><i class="ti-email"></i>&nbsp;&nbsp;電郵</h5>
-                            <p>marketing.cencool@gmail.com</p>
+                            <p>info@cencool.com</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mb-0">
+                            <h5><i class="ti-location-pin"></i>&nbsp;&nbsp;地址</h5>
+                            <p>香港九龍紅磡香港理工大學<br>賽馬會創新樓V411</p>
+                            <p>香港數碼港道100號數碼港3期<br>Core F, 9樓, 908-915</p>
                         </div>
                     </div>
                 </div>
@@ -268,6 +303,16 @@
                             <button onclick="closeFunction()" name="action" value="SendMessage" type="submit" class="btn btn-primary btn-block btn-lg mt-3" style="border-radius: 20px;">Send Message</button>
                         </form>
                     </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.3066202637115!2d114.17762311512654!3d22.304240685321492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e809c71ff1%3A0xeb7151a34a54910d!2sThe%20Hong%20Kong%20Polytechnic%20University!5e0!3m2!1sen!2shk!4v1659091123037!5m2!1sen!2shk" width="100%" height="300px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.494571243825!2d114.12992211477835!3d22.259247785344982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fff0012954c9%3A0xaa15512454b339f3!2sCyberport%203!5e0!3m2!1sen!2shk!4v1663432455689!5m2!1sen!2shk" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
@@ -297,7 +342,7 @@
                     </ul>
                     <ul class="list">
                         <li class="list-head">
-                            <h6 class="font-weight-bold">USEFUL LINKS</h6>
+                            <h6 class="font-weight-bold">相關連結</h6>
                         </li>
                         <li class="list-body">
                             <div class="row">
@@ -318,12 +363,12 @@
                     </ul>
                     <ul class="list">
                         <li class="list-head">
-                            <h6 class="font-weight-bold">CONTACT INFO</h6>
+                            <h6 class="font-weight-bold">聯繫我們</h6>
                         </li>
                         <li class="list-body">
                             <!-- <p>Contact us and we'll get back to you within 24 hours.</p> -->
                             <p><i class="ti-mobile"></i> <br>+852 9345 3493</p>
-                            <p><i class="ti-email"></i>  <br>marketing.cencool@gmail.com</p>
+                            <p><i class="ti-email"></i>  <br>info@cencool.com</p>
                             <div class="social-links">
                                 <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
                                 <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
@@ -356,8 +401,14 @@
     <!-- Initialize Swiper -->
     <script>
 
+        // Prevent default behavior and open dropdown menu
+        $('.nav-link.dropdown-toggle').on('click', function(event) {
+            event.preventDefault();
+            $('.dropdown-menu').toggleClass('show');
+        });
+
         function closeFunction() {
-            alert("留言功能暫時關閉，請透過電郵聯繫我們，謝謝！marketing.cencool@gmail.com");
+            alert("留言功能暫時關閉，請透過電郵聯繫我們，謝謝！\n電郵地址：info@cencool.com");
         }
 
         var swiper = new Swiper(".mySwiper", {
