@@ -1,733 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="icon" type="image/x-icon" href="" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Cencool">
+    <title>Cencool</title>
 
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content="" />
-    <!-- website name -->
-    <meta property="og:site" content="" />
-    <!-- website link -->
-    <meta property="og:title" content="" />
-    <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="" />
-    <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="" />
-    <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="" />
-    <!-- where do you want your post to link to -->
-    <meta property="og:type" content="article" />
-    <!-- -->
-    <!-- Website Title -->
-    <title>BoostRider</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
 
-    <!-- Styles -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
-      rel="stylesheet"
-    />
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/fontawesome-all.css" rel="stylesheet" />
-    <link href="css/swiper.css" rel="stylesheet" />
-    <link href="css/magnific-popup.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/gallery.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <!-- PRELOADER -->
-    <link href="css/loader.css" rel="stylesheet" />
-  </head>
-  <body data-spy="scroll" data-target=".fixed-top">
-    <!-- PRELOADER -->
-    <div id="loader-wrapper">
-      <div id="loader">
-        <div class="sk-spinner sk-spinner-cube-grid">
-          <div class="sk-cube"></div>
-          <div class="sk-cube"></div>
-          <div class="sk-cube"></div>
-          <div class="sk-cube"></div>
-          <div class="sk-cube"></div>
-          <div class="sk-cube"></div>
-          <div class="sk-cube"></div>
-          <div class="sk-cube"></div>
-          <div class="sk-cube"></div>
-        </div>
-      </div>
-    </div>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-    <!-- Preloader -->
-    <!--
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
-  -->
-    <!-- end of preloader -->
+    <!-- Bootstrap + Creative Studio main styles -->
+    <link rel="stylesheet" href="assets/css/creative-studio.css">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-      <div class="container">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <a class="navbar-brand logo-text page-scroll" href="index.html"
-          >BoostRider</a
-        >
+    <link rel="stylesheet" href="assets/css/added.css">
 
-        <!-- Mobile Menu Toggle Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarsExampleDefault"
-          aria-controls="navbarsExampleDefault"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-awesome fas fa-bars"></span>
-          <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
+    <link rel="stylesheet" href="assets/css/dropdown.css">
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul
-            class="navbar-nav ml-auto"
-            style="
-              background-color: #fff;
-              border-radius: 2rem;
-              border: 0.125rem solid #fff;
-            "
-          >
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#header"
-                >HOME <span class="sr-only">(current)</span></a
-              >
-            </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle page-scroll"
-                href="#how-it-work"
-                id="navbarDropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Introduction</a
-              >
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item page-scroll" href="#how-it-work"
-                  ><span class="item-text">Basic Info</span></a
-                >
-                <div class="dropdown-items-divide-hr"></div>
-                <a class="dropdown-item page-scroll" href="#white-paper"
-                  ><span class="item-text">Our Motors</span></a
-                >
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle page-scroll"
-                href="#terms"
-                id="navbarDropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >More Detail</a
-              >
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item page-scroll" href="#terms"
-                  ><span class="item-text">User Testing</span></a
-                >
-                <div class="dropdown-items-divide-hr"></div>
-                <a class="dropdown-item page-scroll" href="#privacy"
-                  ><span class="item-text">Product Position</span></a
-                >
-              </div>
-            </li>
-            <!-- Dropdown Menu -->
-            <!--
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/logo.svg"
+                    alt="cencool">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">首頁</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#video" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">VIDEO</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="article-details.html"><span class="item-text">ARTICLE DETAILS</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
+
+                        <a class="nav-link dropdown-toggle" href="#course" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            興趣班簡介
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: black; border-top: 1px solid #FFF; border-bottom: 1px solid #FFF;">
+                        <a class="dropdown-item" href="../course/AI-Writing.html" style="color:#FFF; border-bottom: 1px solid #ccc; ">AI 智能寫作的探索和應用</a>
+                        <a class="dropdown-item" href="../course/AI-Drawing.html" style="color:#FFF; border-bottom: 1px solid #ccc; ">AI 輔助生成藝術作品集</a>
+                        <a class="dropdown-item" href="../course/AI-VR.html" style="color:#FFF;">虛擬實境 (VR)設計實戰應用 </a>
                         </div>
                     </li>
-                  -->
-            <!-- end of dropdown menu -->
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle page-scroll"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >LANGUAGE</a
-              >
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html"
-                  ><span class="item-text"
-                    >EN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span
-                  ></a
-                >
-                <div class="dropdown-items-divide-hr"></div>
-              </div>
-            </li>
-          </ul>
-          <!--
-                <span class="nav-item dropdown">
-                    <a class="btn-outline-sm nav-link dropdown-toggle page-scroll" href="log-in.html">LANGUAGE</a>
-                </span>
--->
+                    <li class="nav-item">
+                        <a class="nav-link" href="boostrider.html">BoostRider項目</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">關於我們</a>
+                    </li>
+                    <li class="nav-item" id="button-nav" style="height: 100%; padding: 4px 0px;">
+                        <a class=" nav-link-2 btn btn-primary btn-sm ml-lg-3" id="button-3" href="#contact" style="width:100px; color: white;">諮詢我們</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <!-- end of container -->
     </nav>
-    <!-- end of navbar -->
-    <!-- end of navigation -->
+    <!-- End Of Page Navigation -->
 
-    <!-- Header -->
-    <header id="header" class="header">
-      <div class="header-content">
-        <div class="container">
-          <div class="row custom-row">
-            <div class="col-md-6 col-sm-12 col-12">
-              <div class="text-container" id="map-word-container">
-                <h1>BoostRider</h1>
-                <h2 style="color: #000">Wheelchair Add-on</h2>
-                <p>Enhancing mobility for people with reduced mobility</p>
-                <br />
-                <a class="btn-solid-lg page-scroll" href="#how-it-work"
-                  >Get Started With BoostRider</a
-                >
-              </div>
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="overlay">
+            <h6 class="subtitle">創意成真</h6>
+            <h1 class="title">Cencool</h1>
+            <div class="buttons text-center">
+                <a href="#contact" class="btn btn-primary rounded w-lg btn-lg my-1">諮詢我們</a>
+                <a href="#course" class="btn btn-outline-light rounded w-lg btn-lg my-1">興趣班簡介</a>
             </div>
-            <div class="col-md-6 col-sm-12 col-12 cover-image">
-              <img src="images/cover-image.png" alt="" />
-            </div>
-            <!-- end of col -->
-          </div>
-          <!-- end of row -->
         </div>
-        <!-- end of container -->
-      </div>
-      <!-- end of header-content -->
-      <div class="animation">
-        <a
-          class="arrow-down-animation page-scroll"
-          data-scroll
-          href="#how-it-work"
-          ><i class="fa fa-angle-down"></i
-        ></a>
-      </div>
     </header>
-    <!-- end of header -->
-    <!--<svg class="header-frame" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1920 310"><defs><style>.cls-1{fill:#5f4def;}</style></defs><title>header-frame</title><path class="cls-1" d="M0,283.054c22.75,12.98,53.1,15.2,70.635,14.808,92.115-2.077,238.3-79.9,354.895-79.938,59.97-.019,106.17,18.059,141.58,34,47.778,21.511,47.778,21.511,90,38.938,28.418,11.731,85.344,26.169,152.992,17.971,68.127-8.255,115.933-34.963,166.492-67.393,37.467-24.032,148.6-112.008,171.753-127.963,27.951-19.26,87.771-81.155,180.71-89.341,72.016-6.343,105.479,12.388,157.434,35.467,69.73,30.976,168.93,92.28,256.514,89.405,100.992-3.315,140.276-41.7,177-64.9V0.24H0V283.054Z"/></svg>
-    -->
-    <!-- end of header -->
+    <!-- End Of Page Header -->
 
-    <!-- Description -->
-    <div class="cards-1" id="how-it-work" style="background-color: #f3f7fd">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="above-heading"></div>
-            <h2 class="h2-heading">
-              Get Started With <br class="hidden-ss" /><span
-                style="color: #165a72"
-                >BoostRider</span
-              >
-            </h2>
-          </div>
-          <!-- end of col -->
+    <!-- Box -->
+    <div id="services">
+        <div class="page-title-holder">
+            <h3 class="entry-title">
+                所學所得             
+            </h3>
         </div>
-        <!-- end of row -->
+        <div class="box">
+            <div class="box-item">
+                <!-- <i class="ti-mobile"></i> -->
+                <div class="service-holder">
 
-        <div class="row image-gallery">
-          <div class="col-md-4" style="margin-top: auto; margin-bottom: auto">
-            <img src="images/p1_gif.gif" alt="" />
-          </div>
-          <div class="col-md-4">
-            <video src="images/p2-vid.mp4" alt="" autoplay loop muted></video>
-          </div>
-          <div class="col-md-4">
-            <video src="images/p1-vid.mp4" alt="" autoplay loop muted></video>
-          </div>
+                    <p class="service-num">1</p>
+                    <div class="service-txt">
+                        <h4>豐富履歷</h4>
+                        <p>
+                            豐富項目經驗，增強升學優勢
+                        </p>
+                        <br>
+                        <div class="button-holder text-left">
+                            <a href="#course" class="button-dot">
+                                <span>更多</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-item">
+                <!-- <i class="ti-filter"></i> -->
+                <div class="service-holder">
+
+                    <p class="service-num">2</p>
+                    <div class="service-txt">
+                        <h4>互相成就</h4>
+                        <p>
+                            認識優秀同學，互勉共同成長
+                        </p>
+                        <br>
+                        <div class="button-holder text-left">
+                            <a href="#course" class="button-dot">
+                                <span>更多</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-item">
+                <!-- <i class="ti-mobile"></i> -->
+                <div class="service-holder">
+
+                    <p class="service-num">3</p>
+                    <div class="service-txt">
+                        <h4>終身受益</h4>
+                        <p>
+                            持續自主學習，提高學習成果
+                        </p>
+                        <br>
+                        <div class="button-holder text-left">
+                            <a href="#course" class="button-dot">
+                                <span id="course">更多</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- end of container -->
+        <!-- End of Box -->
     </div>
-    <!-- end of cards-1 -->
-    <!-- end of description -->
-    <!--
-    <div class="slider-2" style="background-color:#f3f7fd">
-        <div class="container">
+
+    <div class="course-swiper-container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <div class="swiper-content">
+                        <h2>AI 智能寫作的探索和應用</h4>
+                        <br>
+                        <h6>興趣活動班</h6>
+                        <br>
+                        <p>對象:  小四至中六</p>
+                        <p>每班人數:  15 至 35 人</p>
+                        <br>
+                        <h6>名額有限，先到先得</h6>
+                        <br>
+                        <div class="button-holder text-left" style="padding-left:0;">
+                            <a href="course/AI-Writing.html" class="button-dot">
+                                <span id="course" style="color:#FF214F">更多</span>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="assets/imgs/course-swiper-1.png" alt="" class="slider-image">
+                    <img src="assets/imgs/logo.svg" alt="" class="slider-logo" id="about-us">
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-content">
+                        <h2>人工生成藝術</h4>
+                        <br>
+                        <h6>興趣活動班</h6>
+                        <br>
+                        <p>對象:  小四至中六</p>
+                        <p>每班人數:  15 至 35 人</p>
+                        <br>
+                        <h6>名額有限，先到先得</h6>
+                        <br>
+                        <div class="button-holder text-left" style="padding-left:0;">
+                            <a href="course/AI-Drawing.html" class="button-dot">
+                                <span id="course" style="color:#FF214F">更多</span>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="assets/imgs/course-swiper-2.png" alt="" class="slider-image">
+                    <img src="assets/imgs/logo.svg" alt="" class="slider-logo">
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-content">
+                        <h2>VR 沉浸式產品設計 </h4>
+                        <br>
+                        <h6>興趣活動班</h6>
+                        <br>
+                        <p>對象:  小四至中六</p>
+                        <p>每班人數:  15 至 35 人</p>
+                        <br>
+                        <h6>名額有限，先到先得</h6>
+                        <br>
+                        <div class="button-holder text-left" style="padding-left:0;">
+                            <a href="course/AI-VR.html" class="button-dot">
+                                <span id="course" style="color:#FF214F">更多</span>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="assets/imgs/course-swiper-3.png" alt="" class="slider-image">
+                    <img src="assets/imgs/logo.svg" alt="" class="slider-logo">
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- Box -->
+    <div id="services" style="background-color: white; padding-bottom:0;">
+        <div class="page-title-holder">
+            <h3 class="entry-title">
+                關於我們             
+            </h3>
+        </div>
+        <div class="container about-container">
             <div class="row">
-              <div class="col">Column</div>
-              <div class="col">Column</div>
-              <div class="w-100"></div>
-              <div class="col">Column</div>
-              <div class="col">Column</div>
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h6>我們的使命</h6>
+                        <br>
+                        <h2>有效學習<br>
+                            並轉化為應用</h2>
+                        <br>
+                        <p>
+                            Cencool不同於傳統教育機構，我們專注於“如何發展學生技能和釋放創造力”和“STEAM 教育背後的本質”。我們提供最前沿的STEAM科技興趣活動班，讓學生通過實踐學習並將所學應用到現實場景中。無論學生對編碼、機器人技術、工程學還是設計感興趣，我們有趣且實用的興趣班，可助力他們為未來的職業和升學規劃做好準備。
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/imgs/about-image.png" alt="">
+                </div>
             </div>
         </div>
     </div>
--->
 
-    <div id="gallery">
-      <div id="gallery-1">
-        <img src="images/p2-pic-1.jpg" /><a href="#lightbox-1">View</a>
-      </div>
-      <div id="gallery-2">
-        <img src="images/p2-pic-4.jpg" /><a href="#lightbox-2">View</a>
-      </div>
-      <div id="gallery-3">
-        <img src="images/p2-pic-2.jpg" /><a href="#lightbox-3">View</a>
-      </div>
-      <div id="gallery-4">
-        <img src="images/p2-pic-11.jpg" /><a href="#lightbox-4">View</a>
-      </div>
-      <div id="gallery-5">
-        <img src="images/p2-pic-5.jpg" /><a href="#lightbox-5">View</a>
-      </div>
-      <div id="gallery-6">
-        <img src="images/p2-pic-6.jpg" /><a href="#lightbox-6">View</a>
-      </div>
-      <div id="gallery-7">
-        <img src="images/p2-pic-7.jpg" /><a href="#lightbox-7">View</a>
-      </div>
-      <div id="gallery-8">
-        <img src="images/p2-pic-8.jpg" /><a href="#lightbox-8">View</a>
-      </div>
-      <div id="gallery-9">
-        <img src="images/p2-pic-9.jpg" /><a href="#lightbox-9">View</a>
-      </div>
-      <div id="gallery-10">
-        <img src="images/p2-pic-10.jpg" /><a href="#lightbox-10">View</a>
-      </div>
-      <div id="gallery-11">
-        <img src="images/p2-pic-3.jpg" /><a href="#lightbox-11">View</a>
-      </div>
-      <div id="gallery-12">
-        <img src="images/p2-pic-12.jpg" /><a href="#lightbox-12">View</a>
-      </div>
-      <div id="gallery-13">
-        <img src="images/p2-pic-13.PNG" /><a href="#lightbox-13">View</a>
-      </div>
-      <div id="gallery-21">
-        <img src="images/p2-pic-14.PNG" /><a href="#lightbox-21">View</a>
-      </div>
-      <div id="gallery-15">
-        <img src="images/p2-pic-15.PNG" /><a href="#lightbox-15">View</a>
-      </div>
-      <div id="gallery-16">
-        <img src="images/p2-pic-16.jpg" /><a href="#lightbox-16">View</a>
-      </div>
-      <div id="gallery-17">
-        <img src="images/p2-pic-17.jpg" /><a href="#lightbox-17">View</a>
-      </div>
-      <div id="gallery-18">
-        <img src="images/p2-pic-18.jpg" /><a href="#lightbox-18">View</a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-1">
-      <div class="content">
-        <img src="images/p2-pic-1.jpg" />
-        <div class="title">Real World Demo</div>
-        <a class="close" href="#gallery-1"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-2">
-      <div class="content">
-        <img src="images/p2-pic-4.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-2"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-3">
-      <div class="content">
-        <img src="images/p2-pic-2.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-3"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-4">
-      <div class="content">
-        <img src="images/p2-pic-11.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-4"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-5">
-      <div class="content">
-        <img src="images/p2-pic-5.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-5"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-6">
-      <div class="content">
-        <img src="images/p2-pic-6.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-6"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-7">
-      <div class="content">
-        <img src="images/p2-pic-7.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-7"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-8">
-      <div class="content">
-        <img src="images/p2-pic-8.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-8"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-9">
-      <div class="content">
-        <img src="images/p2-pic-9.jpg" />
-        <div class="title">Real World Demo</div>
-        <a class="close" href="#gallery-9"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-10">
-      <div class="content">
-        <img src="images/p2-pic-10.jpg" />
-        <div class="title">Real World Demo</div>
-        <a class="close" href="#gallery-10"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-11">
-      <div class="content">
-        <img src="images/p2-pic-3.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-11"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-12">
-      <div class="content">
-        <img src="images/p2-pic-12.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-12"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-13">
-      <div class="content">
-        <img src="images/p2-pic-13.PNG" />
-        <div class="title">Real World Demo</div>
-        <a class="close" href="#gallery-13"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-21">
-      <div class="content">
-        <img src="images/p2-pic-14.PNG" />
-        <div class="title">Real World Demo</div>
-        <a class="close" href="#gallery-21"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-15">
-      <div class="content">
-        <img src="images/p2-pic-15.PNG" />
-        <div class="title">Real World Demo</div>
-        <a class="close" href="#gallery-15"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-16">
-      <div class="content">
-        <img src="images/p2-pic-16.jpg" />
-        <div class="title">Real World Demo</div>
-        <a class="close" href="#gallery-16"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-17">
-      <div class="content">
-        <img src="images/p2-pic-17.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-17"></a>
-      </div>
-    </div>
-    <div class="lightbox" id="lightbox-18">
-      <div class="content">
-        <img src="images/p2-pic-18.jpg" />
-        <div class="title">Prototype</div>
-        <a class="close" href="#gallery-18"></a>
-      </div>
-    </div>
-
-    <hr />
-
-    <!-- <div class="parent-three"></div> -->
-
-    <!-- <div class="cards-1" style="background-color:#f3f7fd; height:auto;">
-
-    </div> -->
-
-    <br /><br />
-
-    <!-- Description -->
-    <div
-      class="cards-1"
-      id="white-paper"
-      style="background-color: #f3f7fd; height: auto"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="above-heading"></div>
-            <h2 class="h2-heading whitepaper-heading">Our Motor Technology</h2>
-            <p class="whitepaper-p">
-              Our self-developed motor technology, leading to a well-rounded &
-              effective product
-            </p>
-          </div>
-          <!-- end of col -->
+    <div id="contact" style="height: 80px;"></div>
+    <!-- Contact Section -->
+    <section style="padding-top: 0; ">
+                <div class="page-title-holder">
+            <h3 class="entry-title">
+                諮詢
+            </h3>
         </div>
-        <div class="row image-gallery">
-          <div class="col-md-4" style="margin-top: auto; margin-bottom: auto">
-            <img src="images/p3_gif.gif" alt="" />
-          </div>
-          <div class="col-md-4">
-            <video src="images/p3_vid.mp4" alt="" autoplay loop muted></video>
-          </div>
-          <div class="col-md-4">
-            <video src="images/p1-vid.mp4" alt="" autoplay loop muted></video>
-          </div>
-        </div>
-      </div>
-      <!-- end of container -->
-    </div>
-    <!-- end of cards-1 -->
-    <!-- end of description -->
+        <div class="container" style="padding-top: 30px;">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6 class="section-title mb-4">聯繫我們</h6>
+                    <p>教育是往將來的護照，<br>將來是屬於今天有所準備的人。</p>
 
-    <!-- Description -->
-    <div class="cards-1" id="terms" style="background-color: #fff">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="above-heading"></div>
-            <h2 class="h2-heading whitepaper-heading">User Testing</h2>
-            <p class="whitepaper-p">
-              Thank you for all the visiting and user testing of our BoostRider
-            </p>
-          </div>
-          <!-- end of col -->
-        </div>
-        <div class="row image-gallery">
-          <div class="col-md-4" style="margin-top: auto; margin-bottom: auto">
-            <img src="images/p4-pic-1.png" alt="" />
-          </div>
-          <div class="col-md-4">
-            <img src="images/p4-pic-2.jpg" alt="" />
-          </div>
-          <div class="col-md-4" style="margin-top: auto; margin-bottom: auto">
-            <img src="images/p4-pic-3.png" alt="" />
-          </div>
-        </div>
-        <!-- end of row -->
-      </div>
-      <!-- end of container -->
-    </div>
-    <!-- end of cards-1 -->
-    <!-- end of description -->
+                    <br>
+                    <div class="item">
+                        <div>
+                            <h5><i class="ti-mobile"></i>&nbsp;&nbsp;電話</h5>
+                            <p>(+852) 9345 3493</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <div class="mb-0">
+                            <h5><i class="ti-email"></i>&nbsp;&nbsp;電郵</h5>
+                            <p>info@cencool.com</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mb-0">
+                            <h5><i class="ti-location-pin"></i>&nbsp;&nbsp;地址</h5>
+                            <p>香港九龍紅磡香港理工大學<br>賽馬會創新樓V411</p>
+                            <p>香港數碼港道100號數碼港3期<br>Core F, 9樓, 908-915</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form">
+                        <!-- <h6 class="section-title mb-4">Get In Touch</h6> -->
+                        <form></form>
+                            <div class="form-group">
+                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Subject" required onfocus="this.placeholder=''" onblur="this.placeholder='Subject'">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="contact-message" id="" cols="30" rows="5" class="form-control form-control-lg" placeholder="Message" onfocus="this.placeholder=''" onblur="this.placeholder='Message'"></textarea>
+                            </div>
 
-    <!-- Description -->
-    <div class="cards-1" id="privacy" style="background-color: #f2f2f2;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="above-heading"></div>
-            <h2 class="h2-heading whitepaper-heading">Product Position</h2>
-            <p class="whitepaper-p">
-              Bridge between manual and electrical wheelchair
-            </p>
-          </div>
-        </div>
-        <div class="row image-gallery">
-          <div class="col-md-12" style="margin-top: auto; margin-bottom: auto">
-            <img src="images/p5.png" alt="" />
-          </div>
-        </div>
-      </div>
-      <!-- end of container -->
-    </div>
-    <!-- end of cards-1 -->
-    <!-- end of description -->
-
-    <!-- Footer -->
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="footer-col first">
-              <h5>About BoostRider</h5>
-              <p class="p-small">
-                Enhancing mobility for people with reduced mobility
-              </p>
+                            <button onclick="closeFunction()" name="action" value="SendMessage" type="submit" class="btn btn-primary btn-block btn-lg mt-3" style="border-radius: 20px;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <!-- end of footer-col -->
-            <div class="footer-col second">
-              <h5>Contact Info</h5>
-              <ul class="list-unstyled li-space-lg p-small">
-                <!--
-                            <li class="media">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div class="media-body">22 Innovation Street, CA, US</div>
-                            </li>
-                            -->
-                <li class="media">
-                  <i class="fas fa-envelope"></i>
-                  <div class="media-body">
-                    <a href="mailto: tolinkearth@outlook.com"
-                      >marketing.cencool@gmail.com</a
-                    >
-                  </div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-phone-alt"></i>
-                  <div class="media-body">+852 5931 7389</div>
-                </li>
-              </ul>
-            </div>
-            <!-- end of footer-col -->
-            <div class="footer-col third">
-              <h5>Value Links</h5>
-              <ul class="list-unstyled li-space-lg p-small">
-                <li>
-                  <a href="#terms" class="page-scroll">User Testing</a>
-                </li>
-                <li>
-                  <a href="#privacy" class="page-scroll">Product Position</a>
-                </li>
-              </ul>
-            </div>
-            <!-- end of footer-col -->
-            <div class="footer-col fourth">
-              <h5>Quick Link</h5>
-              <ul class="list-unstyled li-space-lg p-small">
-                <li>
-                  <a href="#how-it-work" class="page-scroll">Basic Info</a>
-                </li>
-                <li>
-                  <a href="#white-paper" class="page-scroll">Our Motors</a>
-                </li>
-              </ul>
-            </div>
-            <!-- end of footer-col -->
 
-            <!--
-                    <div class="footer-col fifth">
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.3066202637115!2d114.17762311512654!3d22.304240685321492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e809c71ff1%3A0xeb7151a34a54910d!2sThe%20Hong%20Kong%20Polytechnic%20University!5e0!3m2!1sen!2shk!4v1659091123037!5m2!1sen!2shk" width="100%" height="300px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.494571243825!2d114.12992211477835!3d22.259247785344982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fff0012954c9%3A0xaa15512454b339f3!2sCyberport%203!5e0!3m2!1sen!2shk!4v1663432455689!5m2!1sen!2shk" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact Section -->
+    
+
+    <section class="has-bg-img py-0">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">關於我們</h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="#" class="logo">
+                                <img src="assets/imgs/logo.svg" alt="Cencool">
+                                <h6></h6>
                             </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                      -->
-          </div>
-          <!-- end of footer-col -->
+                            <p>有效學習並轉化為應用</p> 
+                            <p class="mt-3">
+                                Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a class="d-inline text-primary" href="https://www.cencool.com/">Cencool IT</a>
+                            </p>                   
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">相關連結</h6>
+                        </li>
+                        <li class="list-body">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#home" class="footer-link">首頁</a>
+                                    <a href="#course" class="footer-link">興趣班簡介</a>
+                                    <!-- <a href="#portfolio">網誌</a> -->
+                                    <a href="#about-us" class="footer-link">關於我們</a>
+                                    <a href="disclaimer.html" class="footer-link">免責聲明</a>
+                                    <a href="boostrider.html" class="footer-link">BoostRider項目</a>
+
+                                </div>
+                                <!-- <div class="col">
+                                    <a href="#team">Team</a>
+                                    <a href="#blog">Blog</a>
+                                    <a href="#">Faq</a>
+                                    <a href="#">Privacy Policy</a>                  
+                                </div> -->
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">聯繫我們</h6>
+                        </li>
+                        <li class="list-body">
+                            <!-- <p>Contact us and we'll get back to you within 24 hours.</p> -->
+                            <p><i class="ti-mobile"></i> <br>+852 9345 3493</p>
+                            <p><i class="ti-email"></i>  <br>info@cencool.com</p>
+                            <div class="social-links">
+                                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                                <!-- <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a> -->
+                                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                                <!-- <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a> -->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
         </div>
-        <!-- end of col -->
-      </div>
-      <!-- end of row -->
-    </div>
-    <!-- end of container -->
-    <!-- end of footer -->
-    <!-- end of footer -->
+    </section>
 
-    <!-- Copyright -->
-    <div class="copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="p-small">
-              Copyright ©
-              <a href="http://www.opensource.org/licenses/mit-license.html"
-                >Libpet Tech Limited, All Right Reserved.</a
-              >
-            </p>
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- enf of row -->
-      </div>
-      <!-- end of container -->
-    </div>
-    <!-- end of copyright -->
-    <!-- end of copyright -->
 
-    <!-- SMOOTH SCROLL -->
-    <script src="js/smooth-scroll.min.js"></script>
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script>
-    <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script>
-    <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script>
-    <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script>
-    <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script>
-    <!-- Custom scripts -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- SCROLL REVEAL -->
-    <script src="js/scrollReveal.min.js"></script>
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "./three.js-master/three.js-master/build/three.module.js",
-          "GTFLoader": "./three.js-master/three.js-master/examples/jsm/loaders/GLTFLoader.js",
-          "RGBELoader": "./three.js-master/three.js-master/examples/jsm/loaders/RGBELoader.js",
-          "OrbitControls": "./three.js-master/three.js-master/examples/jsm/controls/OrbitControls.js",
-          "Stats": "./three.js-master/three.js-master/examples/jsm/libs/stats.module.js",
-          "DRACOLoader": "./three.js-master/three.js-master/examples/jsm/loaders/DRACOLoader.js"
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Studio js -->
+    <script src="assets/js/creative-studio.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+        // Prevent default behavior and open dropdown menu
+        $('.nav-link.dropdown-toggle').on('click', function(event) {
+            event.preventDefault();
+            $('.dropdown-menu').toggleClass('show');
+        });
+
+        function closeFunction() {
+            alert("留言功能暫時關閉，請透過電郵聯繫我們，謝謝！\n電郵地址：info@cencool.com");
         }
-      }
-    </script>
 
-    <script type="module" src="three.js"></script>
-  </body>
+        var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        });
+    </script>
+</body>
+
 </html>
