@@ -1,3 +1,3 @@
-# cencool.github.io
+# cencool.com
 
 Robot X
